@@ -1,29 +1,18 @@
+var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://chatapi.viber.com/pa/set_webhook",
+  "method": "POST",
+  "headers": {
+    "x-viber-auth-token": "45a53f0fcb325002-41552d1f93cd0d0f-1a8d7fa78758d158",
+    "content-type": "application/json",
+    "cache-control": "no-cache",
+    "postman-token": "e5c36c6a-52e0-fbaa-7b30-678d6b818065"
+  },
+  "processData": false,
+  "data": "{ \r\n\"url\": \"https://maveer695.github.io/hello-world/viberStuff.html\", \r\n\"event_types\": [\"delivered\", \"seen\", \"failed\", \"subscribed\", \"unsubscribed\", \"conversation_started\"] \r\n}"
+}
 
- 
-  var url = "https://anyorigin.com/go?url="+ encodeURIComponent('https://chatapi.viber.com/pa/set_webhook')  + '&callback=?';
-                    
-  var events = [];
-  function fn(json){
-    console.log(json);
-  }
-    
-    $.ajax({
-    url : url ,
-    dataType : "json",
-    type : 'POST',
-    jsonpCallback: 'fn',
-    data : {  
-     "url": "https://manveer695.github.io/hello-world/viberStuff.html",
-     "event_types": ["delivered", "seen", "failed", "subscribed", "unsubscribed", "conversation_started"]  
-    },
-    beforeSend: function(request) {
-        request.setRequestHeader('X-Viber-Auth-Token', '45a53f0fcb325002-41552d1f93cd0d0f-1a8d7fa78758d158');
-    },
-    success : function (data) {
-      console.log(data);
-    },
-    error : function (data, errorThrown) {
-      //console.log(data);
-      alert(errorThrown);
-    }
+$.ajax(settings).done(function (response) {
+  console.log(response);
 });
