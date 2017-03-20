@@ -1,6 +1,6 @@
 
  
-  var url = "http://www.whateverorigin.org/get?url="+ encodeURIComponent('https://chatapi.viber.com/pa/set_webhook')  + '&callback=?';
+  var url = "https://anyorigin.com/go?url="+ encodeURIComponent('https://chatapi.viber.com/pa/set_webhook')  + '&callback=?';
                     
   var events = [];
   function fn(json){
