@@ -1,7 +1,7 @@
 var settings = {
   "async": true,
   "crossDomain": true,
-  "url": "https://chatapi.viber.com/pa/send_message",
+  "url": "https://chatapi.viber.com/pa/set_webhook",
   "method": "POST",
   "headers": {
     "x-viber-auth-token": "45a53f0fcb325002-41552d1f93cd0d0f-1a8d7fa78758d158",
