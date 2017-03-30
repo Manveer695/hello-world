@@ -1,1 +1,1 @@
-A server to handles requests from Viber and to respond appropriately!
+A server to handle requests from Viber and to respond appropriately!
