@@ -8,7 +8,7 @@ var settings = {
     "content-type": "application/json",
     "cache-control": "no-cache"
   },
-  "data": "{ \r\n\"url\": \"https://maveer695.github.io/hello-world/viberStuff.html\", \r\n\"event_types\": [\"delivered\", \"seen\", \"failed\", \"subscribed\", \"unsubscribed\", \"conversation_started\"] \r\n}"
+  "data": "{ \r\n\"url\": \"https://gentle-gorge-71767.herokuapp.com/\", \r\n\"event_types\": [\"delivered\", \"seen\", \"failed\", \"subscribed\", \"unsubscribed\", \"conversation_started\"] \r\n}"
 }
 
 $.ajax(settings).done(function (response) {
