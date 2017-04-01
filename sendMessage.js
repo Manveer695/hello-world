@@ -1,5 +1,7 @@
-
-
+/*
+* To send a message to the user subscribed to Susi assistant public account on Viber.
+* Author: Manveer Singh
+*/
 var settings = {
   "async": true,
   "crossDomain": true,
