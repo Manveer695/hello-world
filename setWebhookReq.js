@@ -1,3 +1,7 @@
+/*
+* To set the webhook for our account, with Viber
+* Author: Manveer Singh.
+*/
 var settings = {
   "async": true,
   "crossDomain": true,
